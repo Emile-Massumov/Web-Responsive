@@ -299,6 +299,38 @@ font-weight: 500;
 margin: 0px auto;
 }
 
+/*About saction*/
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3rem 4rem;
+}
+.about-header {
+  text-align: start;
+}
+@media (max-width: 576px) {
+.about-header {
+  text-align: center;
+}
+}
+.about-header h1 {
+  font-weight: 700;
+  font-size: 3.2rem;
+  color: #000;
+}
+.about-content p {
+  color: #000;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
